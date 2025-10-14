@@ -1,0 +1,148 @@
+(footprint "MQ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U1"
+		(at 0 -8.68 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2106ff4-ecec-4bdf-9eb2-871d356ecc45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MQ-X"
+		(at 0.020001 11.13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32704064-6e9c-4166-bb2b-ed73bae647ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1d4165b-3a4e-4fce-a074-69bf7a467054")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "875f5011-757f-42d4-af0a-d6e7b0e1b532")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.799999 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ca9f6107-a7c2-4cb6-b4b9-457c7db33004")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.799999 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5985ceb8-c90c-4311-8ea3-5d05e7f157af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.499999 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4148b179-1441-4b91-b7d7-ec4e5120994b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.358757 -3.358757)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3b644be-e2db-4449-bad3-26ff16b69ce2")
+	)
+	(pad "2" thru_hole circle
+		(at -4.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa520687-304f-4328-872a-b82459e28c70")
+	)
+	(pad "3" thru_hole circle
+		(at -3.358757 3.358757)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87602463-f788-40ba-ac4f-15c3385ca0e2")
+	)
+	(pad "4" thru_hole circle
+		(at 3.358757 3.358757)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d92764c9-07e7-4dd8-a38c-79d3f5457e8c")
+	)
+	(pad "5" thru_hole circle
+		(at 4.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9d4fcde-880b-4ce7-b454-33ec762bc605")
+	)
+	(pad "6" thru_hole circle
+		(at 3.358757 -3.358757)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "089f871c-536a-45ec-8550-30e8b6107439")
+	)
+	(embedded_fonts no)
+	(model "${TAVU_KICAD_LIB}/e-radionica.com footprinti.3dshapes/MQ.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
