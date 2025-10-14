@@ -1,0 +1,1 @@
+# Kicad Symbol, Footprint and 3D library
