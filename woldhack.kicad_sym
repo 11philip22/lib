@@ -2102,7 +2102,7 @@
 		(at 0 -24.13 0)
 		(effects (font (size 1.27 1.27) ) hide)
 		)
-		(symbol "USB-A-SMD_USB-M-21"
+		(symbol "USB-A-SMD_USB-M-21_0_1"
 		(rectangle
 			(start -3.81 6.35)
 			(end 5.08 -6.35)
