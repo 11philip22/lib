@@ -134,7 +134,7 @@
 		(uuid "089f871c-536a-45ec-8550-30e8b6107439")
 	)
 	(embedded_fonts no)
-	(model "${TAVU_KICAD_LIB}/e-radionica.com footprinti.3dshapes/MQ.STEP"
+	(model "${KIPRJMOD}/lib/3D/MQ.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
