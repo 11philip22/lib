@@ -2102,7 +2102,7 @@
 		(at 0 -24.13 0)
 		(effects (font (size 1.27 1.27) ) hide)
 		)
-		(symbol "USB-A-SMD_USB-M-21_0_1"
+		(symbol "USB-A-SMD_USB-M-21"
 		(rectangle
 			(start -3.81 6.35)
 			(end 5.08 -6.35)
@@ -2160,168 +2160,86 @@
 		)
 	)
 	(symbol "STMPS2141STR"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U2"
-			(at 0 9.271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(property
+		"Reference"
+		"U"
+		(id 0)
+		(at 0 7.62 0)
+		(effects (font (size 1.27 1.27) ) )
 		)
-		(property "Value" "STMPS2141STR"
-			(at 0 6.9596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(property
+		"Value"
+		"STMPS2141STR"
+		(id 1)
+		(at 0 -7.62 0)
+		(effects (font (size 1.27 1.27) ) )
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(property
+		"Footprint"
+		"woldhack:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+		(id 2)
+		(at 0 -10.16 0)
+		(effects (font (size 1.27 1.27) ) hide)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STMPS2141STR_C54624.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(property
+		"Datasheet"
+		"https://lcsc.com/product-detail/Analog-ICs_STMicroelectronics_STMPS2141STR_STMPS2141STR_C54624.html"
+		(id 3)
+		(at 0 -12.70 0)
+		(effects (font (size 1.27 1.27) ) hide)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C54624"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(property
+		"LCSC"
+		"C54624"
+		(id 5)
+		(at 0 -15.24 0)
+		(effects (font (size 1.27 1.27) ) hide)
 		)
 		(symbol "STMPS2141STR_0_1"
-			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -7.62)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(rectangle
+			(start -7.62 5.08)
+			(end 7.62 -5.08)
+			(stroke (width 0) (type default) (color 0 0 0 0))
+			(fill (type background))
 		)
-		(symbol "STMPS2141STR_1_1"
-			(pin power_in line
-				(at -8.89 1.27 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 -1.27 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.89 -3.81 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 8.89 1.27 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 8.89 -3.81 180)
-				(length 2.54)
-				(name "FAULT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(circle
+			(center -6.35 3.81)
+			(radius 0.38)
+			(stroke (width 0) (type default) (color 0 0 0 0))
+			(fill (type none))
 		)
-		(embedded_fonts no)
+		(pin unspecified line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "OUT" (effects (font (size 1.27 1.27))))
+			(number "1" (effects (font (size 1.27 1.27))))
+		)
+		(pin unspecified line
+			(at -10.16 -0.00 0)
+			(length 2.54)
+			(name "GND" (effects (font (size 1.27 1.27))))
+			(number "2" (effects (font (size 1.27 1.27))))
+		)
+		(pin unspecified line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "FAULT" (effects (font (size 1.27 1.27))))
+			(number "3" (effects (font (size 1.27 1.27))))
+		)
+		(pin unspecified line
+			(at 10.16 -2.54 180)
+			(length 2.54)
+			(name "EN" (effects (font (size 1.27 1.27))))
+			(number "4" (effects (font (size 1.27 1.27))))
+		)
+		(pin unspecified line
+			(at 10.16 2.54 180)
+			(length 2.54)
+			(name "IN" (effects (font (size 1.27 1.27))))
+			(number "5" (effects (font (size 1.27 1.27))))
+		)
+		)
 	)
 )
