@@ -2076,7 +2076,7 @@
 		)
 		(property
 		"Value"
-		"A/FPaste board Dparagraph10Four feet without curling ironLCPVinyl6.8Reverse"
+		"USB-A-SMD_USB-M-21"
 		(id 1)
 		(at 0 -16.51 0)
 		(effects (font (size 1.27 1.27) ) )
@@ -2102,7 +2102,7 @@
 		(at 0 -24.13 0)
 		(effects (font (size 1.27 1.27) ) hide)
 		)
-		(symbol "A_FPasteboardDparagraph10FourfeetwithoutcurlingironLCPVinyl6.8Reverse_0_1"
+		(symbol "USB-A-SMD_USB-M-21"
 		(rectangle
 			(start -3.81 6.35)
 			(end 5.08 -6.35)
