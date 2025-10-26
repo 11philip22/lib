@@ -54,8 +54,14 @@
 	(pad 6 thru_hole oval (at -6.40 3.74 -90.00) (size 2.50 1.40) (layers *.Cu *.Mask)(drill oval 1.7999964 0.700024))
 	(fp_circle (center 6.55 -4.72) (end 6.58 -4.72) (layer F.Fab) (width 0.06))
 	(model "${KIPRJMOD}/lib/3D/USB-A-SMD_4P-L13.1-W10.0-H6.9.wrl"
-		(offset (xyz 0.000 -0.810 2.500))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 3.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
